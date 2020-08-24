@@ -4,7 +4,7 @@ function shelfBook(book, shelf) {
   }
   return shelf
 }
-
+//return shelf.splice(i, 1)
 function unshelfBook(title, shelf) {
   for (var i = shelf.length - 1; i >= 0; --i) {
       if (shelf[i].title == title) {
